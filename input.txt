@@ -1,0 +1,17 @@
+intt san(intt x) {
+    retturn x + 1;
+}
+
+intt mainn() {
+    intt a = 5;
+    iif (a > 3) {
+        printt("Greater");
+    } else {
+        printt("Smaller");
+    }
+    loop (int i = 0; i < 3; i = i + 1) {
+        printt(i);
+    }
+    retturn 0;
+}
+

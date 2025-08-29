@@ -1,0 +1,14 @@
+#main
+g++ main.cpp lexer.cpp parser.cpp -o compiler.exe
+.\compiler.exe
+
+
+#lexer
+g++ main_lexer.cpp lexer.cpp -o lexer.exe
+.\lexer.exe
+
+
+#parser
+g++ main_parser.cpp lexer.cpp parser.cpp -o parser.exe
+.\parser.exe
+
